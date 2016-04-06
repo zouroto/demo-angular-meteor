@@ -1,0 +1,10 @@
+<body ng-app="bon-appetit" ng-strict-di="">
+
+<div class='container-fluid typeahead-demo' ng-controller="TypeaheadCtrl">
+
+    <h4>Static arrays</h4>
+    <pre>Model: {{selected | json}}</pre>
+    <input type="text" ng-model="selected" uib-typeahead="state for state in states | filter:$viewValue | limitTo:8"  typeahead-template-url="client/custom-template.ng.html" class="form-control">
+</div>
+
+</body>
