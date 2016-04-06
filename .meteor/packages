@@ -21,3 +21,4 @@ angular
 twbs:bootstrap
 less
 angularui:angular-ui-bootstrap
+angular:angular-animate
